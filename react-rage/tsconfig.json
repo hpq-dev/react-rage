@@ -1,0 +1,15 @@
+
+{
+    "compilerOptions": {
+      "target": "ES6",                  // Versiunea ECMAScript targetată
+      "module": "commonjs",             // Modulul folosit
+      "declaration": true,              // Generează fișiere de tip `.d.ts`
+      "outDir": "./dist",               // Directorul de ieșire pentru fișierele compilate
+      "strict": true,                   // Strict mode
+      "esModuleInterop": true,          // Suport pentru importuri ES
+      "jsx": "react",                   // Compilare JSX (poate fi `react` sau `react-jsx`)
+      "skipLibCheck": true              // Omite verificarea tipurilor pentru fișierele din `node_modules`
+    },
+    "include": ["src"],                 // Include fișierele din directorul `src`
+    "exclude": ["node_modules", "dist"] // Exclude `node_modules` și `dist`
+  }
